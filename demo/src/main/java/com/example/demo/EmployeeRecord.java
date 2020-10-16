@@ -50,7 +50,7 @@ public class EmployeeRecord {
 
 	
 	  // method to update existing employee this method will update the existing employee
-	  public Boolean updateEmployee(Employee emp1){
+	  public Boolean updateEmployee(Employee e){
 	  
 	  for (int i=0;i<edata.size();i++) { 
 		  Employee emp=edata.get(i); 
