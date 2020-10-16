@@ -66,10 +66,5 @@ public class EmployeeRecord {
 	public List<Employee> getEmployeeRecord() {
 		return edata;
 	}
-	
-	//dummy
-	void printmycode(){
-		System.out.println("my code 9");
-	}
 
 }
