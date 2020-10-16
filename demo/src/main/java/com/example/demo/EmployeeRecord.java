@@ -69,7 +69,7 @@ public class EmployeeRecord {
 	
 	//dummy
 	void printmycode(){
-		System.out.println("my code 4");
+		System.out.println("my code 5");
 	}
 
 }
