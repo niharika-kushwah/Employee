@@ -8,7 +8,7 @@ public class EmployeeRecord {
 	private static EmployeeRecord eRec = null;
 
 	private EmployeeRecord() {
-		edata = new ArrayList<Employee>();
+		empData = new ArrayList<Employee>();
 	}
 
 	public static EmployeeRecord genrateEmp() {
