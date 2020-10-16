@@ -9,5 +9,8 @@ class DemoApplicationTests {
 	@Test
 	void contextLoads() {
 	}
+	void printmycode() {
+		System.out.println("hi");
+	}
 
 }
