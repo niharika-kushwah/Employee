@@ -38,14 +38,14 @@ public class EmployeeRecord {
 	  
 	 // Method to get Employee object according to given id
 	  public Employee geEmployee(int id) {
-		  Employee e=null;
+		  Employee emp=null;
 		  for (int i=0;i<edata.size();i++) {
-			  e=edata.get(i);
-			  if(id == e.geteID()) {
-				  return e;
+			  emp=edata.get(i);
+			  if(id == emp.geteID()) {
+				  return emp;
 			  }
 		  }
-		  return e;
+		  return emp;
 	  }
 
 	
